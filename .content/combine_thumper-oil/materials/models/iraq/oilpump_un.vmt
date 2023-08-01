@@ -1,9 +1,0 @@
-
-vertexlitgeneric
-{
-
-	$basetexture models/iraq/oilpump_un
-
-	$halflambert 1
-
-}
