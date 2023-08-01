@@ -5,6 +5,7 @@ $ambientboost
 $modelname props_combine/combinethumper002
 
 $model pumpjack pumpjack_thumper002_reference
+$model combine pumpjack_thumper002_combine_reference
 
 // $lod 150
 // {
@@ -14,6 +15,7 @@ $model pumpjack pumpjack_thumper002_reference
 $lod 300
 {
 	// replacemodel pumpjack_thumper002_reference pumpjack_thumper002_reference_lod2
+	removemodel combinethumper002
 	replacebone "cable" "head"
 	nofacial
 }
@@ -25,6 +27,7 @@ $contents solid
 $illumposition 0 0 64
 
 $cdmaterials models/v92/props_industrial/pumpjack
+$cdmaterials models/props_combine
 
 $attachment "hammer" "cable" 0 0 0 rotate 0 0 0
 
@@ -37,7 +40,7 @@ $sequence idle {
 	fadein 0
 	fadeout 0
 	snap
-	fps 15
+	fps 23
 	loop
 }
 
