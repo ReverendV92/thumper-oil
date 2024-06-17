@@ -1,0 +1,23 @@
+
+Info
+{
+
+	"name"				"Oil Pump Jack Thumper"
+	"description"		""
+
+	"version"			""
+	"created"			""
+	"modified"			""
+
+	"creator"
+	{
+
+		"name"			"V92"
+		"contact"		"Steam"
+		"url"			"https://steamcommunity.com/profiles/76561197998218505"
+
+	}
+
+	"override"			true
+
+}
